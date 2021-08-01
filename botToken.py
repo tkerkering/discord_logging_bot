@@ -1,3 +1,0 @@
-# Update token accordingly
-
-token = ''
