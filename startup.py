@@ -6,12 +6,6 @@ import mysql_interface.integrity_helper as integrityHelper
 import mysql_interface.mysql_constants as mysqlConstants
 import mysql_interface.mapping as mysqlMapping
 
-# TODO General (Feature Complete):
-# - Create mapping for custom commands
-# - Log every message directly into the database
-#    - update user/server database accordingly
-# TODO Nice to have:
-# - Being able to change the prefix of commands
 
 # Logging initialization
 logging.basicConfig(level=logging.INFO)
