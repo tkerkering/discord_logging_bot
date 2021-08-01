@@ -36,13 +36,13 @@ userEngine = sqlAlchemy.create_engine(
     mysqlConstants.create_database_uri_by_string(mysqlMapping.userTableName))
 userEngine.connect()
 integrityHelper.check_if_table_exists_on_db(
-    messageEngine, mysqlMapping.userTableName)
+    userEngine, mysqlMapping.userTableName)
 
 serverEngine = sqlAlchemy.create_engine(
     mysqlConstants.create_database_uri_by_string(mysqlMapping.serverTableName))
 serverEngine.connect()
 integrityHelper.check_if_table_exists_on_db(
-    messageEngine, mysqlMapping.serverTableName)
+    serverEngine, mysqlMapping.serverTableName)
 
 
 # Create discord client and register on events
