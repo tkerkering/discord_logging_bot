@@ -1,4 +1,4 @@
-# Discord Logger Bot
+# Dharma Bot Iteration 1
 
 This bot logs discord message activities into a database to keep track of  
 user activity.  
